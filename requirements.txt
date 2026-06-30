@@ -5,4 +5,4 @@ seaborn
 scikit-learn
 jupyter
 joblib
-streamlit
+streamlit==1.38.0

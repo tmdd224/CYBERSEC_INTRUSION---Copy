@@ -12,7 +12,7 @@ def load_data():
     df = pd.read_csv(BASE_DIR / "data" / "raw" / "cybersecurity_intrusion_data.csv")
     return df
 
-df = load_data()
+df = load_data().copy()
 
 st.sidebar.title("Cybersec Intrusion Detection")
 st.sidebar.markdown("Status: **ONLINE**")
