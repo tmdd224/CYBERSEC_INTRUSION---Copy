@@ -3,6 +3,5 @@ numpy
 matplotlib
 seaborn
 scikit-learn
-jupyter
 joblib
-streamlit==1.38.0
+streamlit
